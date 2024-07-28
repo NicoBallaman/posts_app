@@ -17,16 +17,27 @@
 The project is organized into feature packages, each representing a distinct functional area of the application designed to be scalable, maintainable, and testable. This approach promotes modularity and separation of concerns.
 
 Structure:
+<br>
 components/
+<br>
 └── fav_post
+<br>
     └── presentation/
+<br>
 core/
+<br>
 features/
+<br>
 ├── post_comments/
+<br>
 └── post_list/
+<br>
 lib/
+<br>
 ├── application
+<br>
 ├── modules
+<br>
 └── main.dart
 
 Each feature package contains:
